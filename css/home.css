@@ -66,12 +66,21 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.conan-con:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .conan-info {
     max-width: 800px;
     margin-bottom: 2rem;
     text-align: center;
+    
 }
 
 .conan-info h3 {
@@ -125,6 +134,9 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.blog-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 .blog-item img {
     width: 100%;
     height: auto;
